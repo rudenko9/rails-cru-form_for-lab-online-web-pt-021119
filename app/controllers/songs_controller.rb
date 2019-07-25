@@ -1,5 +1,6 @@
 class SongsController < ApplicationController
   def new
+<<<<<<< HEAD
     @song = Song.new
   end
 
@@ -28,4 +29,19 @@ class SongsController < ApplicationController
     def song_params(*args)
       params.require(:songs).permit(*args)
     end
+=======
+  end
+
+  def show
+  end
+
+  def create
+  end
+
+  def edit
+  end
+
+  def update
+  end
+>>>>>>> fb377da8ba8a3b7d004aa0116bc352d2e43bb63b
 end
